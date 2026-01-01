@@ -3,6 +3,7 @@ import { account, databases, DATABASE_ID, COLLECTION_ID } from "../appwrite";
 import { ID, Permission, Role } from "appwrite";
 import { useNavigate } from "react-router-dom";
 
+
 export default function AuthPage() {
   const [tab, setTab] = useState("login");
   const [email, setEmail] = useState("");
